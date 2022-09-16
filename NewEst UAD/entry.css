@@ -1,0 +1,38 @@
+* {
+  display: flex;
+  flex-direction: row;
+}
+
+body {
+  margin: 0;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#controls {
+  size: 10rem;
+  width: 400px;
+  background: #ccc;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: xx-large;
+  background-color: transparent;
+  color: azure;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

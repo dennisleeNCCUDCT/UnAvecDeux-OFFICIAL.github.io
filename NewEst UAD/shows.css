@@ -1,0 +1,8 @@
+.shows {
+  background-color: black;
+  color: azure;
+  display: flex;
+  flex-direction: row;
+  font-size: 15px;
+  margin-top: 3rem;
+}

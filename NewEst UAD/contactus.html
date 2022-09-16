@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./bootstrap.min.css" />
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+<body>
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <a class="navbar-brand" style="color: white; font-size: 15px"
+        >導覽列/Nav</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./main.html">主頁/Home </a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+            >
+              關於我們/About Us
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="./shows.html">演出經歷/Performences</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="#">簡介/Bios</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              class="nav-item active"
+            >
+              Media
+            </a>
+            <ul class="dropdown-menu">
+              <li>
+                <a class="dropdown-item" href="./music.html" class="nav-item active"
+                  >Music</a
+                >
+              </li>
+              <li>
+                <a class="dropdown-item" href="https://www.instagram.com/unavecdeux_taiwan/">Instagram</a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="https://streetvoice.com/UAD_Chen/">StreetVoice</a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="https://www.youtube.com/c/UNAVECDEUXOfficial">Youtube</a>
+              </li>
+
+              <li>
+                <a class="dropdown-item" href="https://www.oursong.com/@unavecdeux">NFT</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">聯絡我們/Contact</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="https://unavecdeuxofficial.easy.co/">商店/Shop</a>
+          </li>
+        </ul>
+
+        <form class="form-inline">
+          <input
+            class="form-control"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    
+    
+
+
+
+
+<div class="contactform1">
+        <form action="https://formsubmit.co/unavecdeux@gmail.com" method="POST">>
+            <label for="myname">您的姓名/Your name</label>
+            <input minlength="2" maxlength="20" id="myname" type="text" name="UserNameInput" required>
+           
+           <br> 
+           
+            <label for="youremail">您的e-mail/Your e-mail</label>
+            <input id="youremail" type="email" name="UserEmailInput" required>
+           
+           <br>
+           
+           <label for="yourcontent">聯絡事項/Contact contents</label>
+            <input id="yourcontent" type="text" name="ContactContents" required minlength="30" maxlength="200">
+           
+           <br> 
+           
+           <label for="yournews">是否訂閱電子報?/subscribe our news letter?</label>
+            <input id="yournews" type="checkbox" name="NewsLetterSubscribe" value="newspaper" checked required>
+           
+           <br>
+           
+            <input id="gender" type="radio" name="gender" value="male"  required>
+           <label for="gender">男性/Male</label>
+           
+            <input id="gender" type="radio" name="gender" value="female"  required>
+           <label for="gender">女性/Female</label>
+           
+            <input id="gender" type="radio" name="gender" value="other" required >
+           <label for="gender">其他/other</label>
+           
+           
+           <br> 
+           <br> 
+           <label for"purpose">聯絡目的/Contact Purpose</label><br> 
+           <select name="ContactPurpose" id='purpose' required>
+           <option value="op0"></option>
+            <option value="表演邀約">表演邀約/Show offers</option>
+            <option value="廠牌合作">廠牌合作/Product offers</option>
+            <option value="粉絲聯繫">粉絲聯繫/Fans</option>
+            <option value="場館聯繫">場館聯繫/Live house or Festivals</option>
+            <option value="其他">其他/Others<option>
+           </select>
+
+           
+           <br> 
+           <br> 
+           
+           <label for="">真人驗證/Verify Steps</label>
+           <br> 
+           <label for="yourage">輸入您的年齡/Type your age</label>
+            <input id="yourage" type="number" name="UserAge" value="" required min=18 max=100 step=0.5>
+           
+           <br>
+           
+           <button type="submit" name="">提交/Submit</button>
+</form>
+</div>
+ 
+        <br>
+        <br>
+        
+        <div class="finalfooter">
+          <a href="https://www.facebook.com/UNAVECDEUX" class="facebook"><img src="./social media icon/facebook-logo.png" width="50" height="50"></img></a>
+          <a href="https://www.instagram.com/unavecdeux_taiwan/" class="ig2"><img src="./social media icon/instagram (1).png" width="50" height="50"></img></a>
+          <a href="https://www.youtube.com/c/UNAVECDEUXOfficial" class="youtube"><img src="./social media icon/youtube.png" width="50" height="50"></img></a>
+          <a href="https://open.spotify.com/artist/1OUDjVeDb20Ww7yu6ym3up?si=yoRS_dkER86YVW6eN0bLDA" class="spotify"><img src="./social media icon/spotify (2).png" width="50" height="50"></img></a>
+          
+          </div>
+          
+          <br>
+          <br>
+          <br>
+          
+  
+    <br>
+    <br>
+ 
+
+</div>
+<div class="footertext" style="background-color: rgba(0, 0, 0, 0.2)">
+  © 2022 Copyright:<br>
+  <a class="text-white" 
+    >UN AVEC DEUX.com<br></a
+  >
+</div>
+
+
+  <script src=" https://smtpjs.com/v3/smtp.js"></script>     
+<script>function sendEmail(){
+  Email.send({
+Host:"smtp.gmail.com",
+Username : "unavecdeux@gmail.com",
+Password : "reignterminalnorival",
+to : 'pcleegood@gmail.com',
+From : document.getElementById("email").value,
+Subject:"new feed",
+Body :"And this is the body"})
+.then(
+  message=>alert(提交成功));
+  }</script>  
+
+</body>
+</html>
